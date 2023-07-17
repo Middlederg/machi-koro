@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machikoro.Core", "Machikoro.Core\Machikoro.Core.csproj", "{A99013A3-3112-4788-ADFF-C566CD9BA097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machikoro.Forms", "Machikoro.Forms\Machikoro.Forms.csproj", "{E2A47636-6165-4998-9599-BBECD3108BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A99013A3-3112-4788-ADFF-C566CD9BA097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99013A3-3112-4788-ADFF-C566CD9BA097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99013A3-3112-4788-ADFF-C566CD9BA097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99013A3-3112-4788-ADFF-C566CD9BA097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A47636-6165-4998-9599-BBECD3108BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A47636-6165-4998-9599-BBECD3108BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A47636-6165-4998-9599-BBECD3108BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A47636-6165-4998-9599-BBECD3108BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5099F9FF-F2E1-4299-A4DD-CBBEDA45766B}
+	EndGlobalSection
+EndGlobal

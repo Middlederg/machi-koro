@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A99013A3-3112-4788-ADFF-C566CD9BA097}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Machikoro.Core</RootNamespace>
+    <AssemblyName>Machikoro.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\CampoEdificio.cs" />
+    <Compile Include="Enums\FuncionAttribute.cs" />
+    <Compile Include="Enums\Punto.cs" />
+    <Compile Include="Enums\PuntoAttribute.cs" />
+    <Compile Include="Model\Dados.cs" />
+    <Compile Include="Model\Juego.cs" />
+    <Compile Include="Model\Jugador.cs" />
+    <Compile Include="Model\PuntoInteres.cs" />
+    <Compile Include="Enums\TipoEdificio.cs" />
+    <Compile Include="Model\Edificio.cs" />
+    <Compile Include="Negocio\GameHelper.cs" />
+    <Compile Include="Negocio\General.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CampoDeTrigo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CentroComercial1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CentroComercial2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CentroDeNegocios1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CentroDeNegocios2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dadoAzul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DadoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstacionDeTren1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstacionDeTren2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estadio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estadio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstudiosDeTV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstudiosTV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabricaDeMuebles1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabricaDeMuebles2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabricaDeQueso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FabricaDeQueso2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GranjaDeGanado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GranjaDeGanado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manzanar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manzanar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mina1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mina2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monedas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panaderia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panaderia2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ParqueDeAtracciones1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ParqueDeAtracciones2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurante1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurante2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supermercado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supermercado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TorreDeRadiodifusion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TorreDeRadiodifusion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bosque1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bosque2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CampoDeTrigo1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
